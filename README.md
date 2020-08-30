@@ -16,5 +16,8 @@ The program is going to have a simple interface so its easy to learn for the new
 10. Bug fixes {8 hours}
 11. Finalizing program {3 hours}
 
+Class Diagrams:
 <img src="https://embed.creately.com/PkwSZVHwpoz?token=oCZq8ubZOfZqLUwo&type=svg">
+
+UI Diagrams:
 https://docs.google.com/document/d/1TL6_I895JW0hPaeglFtT2tWgzQDdWMFXkwxWwb1pM1E/edit?usp=sharing 
