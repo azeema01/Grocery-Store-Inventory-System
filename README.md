@@ -17,3 +17,4 @@ The program is going to have a simple interface so its easy to learn for the new
 11. Finalizing program {3 hours}
 
 <img src="https://embed.creately.com/PkwSZVHwpoz?token=oCZq8ubZOfZqLUwo&type=svg">
+https://docs.google.com/document/d/1TL6_I895JW0hPaeglFtT2tWgzQDdWMFXkwxWwb1pM1E/edit?usp=sharing 
