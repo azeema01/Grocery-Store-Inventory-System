@@ -21,3 +21,64 @@ Class Diagrams:
 
 UI Diagrams:
 https://docs.google.com/document/d/1TL6_I895JW0hPaeglFtT2tWgzQDdWMFXkwxWwb1pM1E/edit?usp=sharing 
+
+PYCHARM MAIN FILE:
+
+if __name__ == '__main__':
+    print('Run Directly')
+else:
+    print('Run From Import')
+
+import datetime
+
+class Employees:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+        self.email = first + '.' + last + '@inventory.com'
+    def fullname(self):
+        return (self.first, self.last)
+class Food:
+    def __init__(self, snacks, vegetables, fruits, meat, cereal):
+        self.snacks = snacks
+        self.vegetables = vegetables
+        self.fruits = fruits
+        self.meat = meat
+        self.cereal = cereal
+class Healthcare:
+    def __init__(self, deodorants, hair_products, skin_products, vitamins, first_aid):
+        self.deodorants = deodorants
+        self.hair_products = hair_products
+        self.skin_products = skin_products
+        self.vitamins = vitamins
+        self.first_aid = first_aid
+class Drinks:
+    def __init__(self, cold_drinks, hot_drinks, cider, alcohol, dairy):
+        self.cold_drinks = cold_drinks
+        self.hot_drinks = hot_drinks
+        self.cider = cider
+        self.alcohol = alcohol
+        self.dairy = dairy
+class Essentials:
+    def __init__(self, toilet_rolls, paper_towels, trash_bags, laundry_detergent, broom):
+        self.toilet_rolls = toilet_rolls
+        self.paper_towels = paper_towels
+        self.trash_bags = trash_bags
+        self.laundry_detergent = laundry_detergent
+        self.broom = broom
+
+PYCHARM MODULE_1:
+
+import Grocer_Inventory_System
+print ("Second module's name: {}".format(__name__))
+
+#This module will entail the coding relating to the class of Employees, class of Food, the class of Healthcare and all their functions.
+#This will help in more efficient, clean and uncluttered coding.
+
+PYCHARM MODULE_2:
+
+import Grocer_Inventory_System
+print ("Second module's name: {}".format(__name__))
+
+#This module will entail the coding relating to the class of Essentials, the class of Drinks and all their functions.
+#This will help in more efficient, clean and uncluttered coding.
